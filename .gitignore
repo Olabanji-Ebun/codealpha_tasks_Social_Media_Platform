@@ -1,5 +1,6 @@
 .env
 env/
+idea/
 socials/db.sqlite3
 socials/base/__pycache__/
 socials/base/migrations/__pycache__/
