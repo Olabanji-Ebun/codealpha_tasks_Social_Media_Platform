@@ -1,6 +1,8 @@
 from django.urls import path
 from django.conf import settings
 from django.conf.urls.static import static
+
+from django.contrib import admin
 from .views import AddPostView,EditProfilePageView,CreateProfilePageView,PasswordsChangeView,FriendView,AddCommentView,DeletePostView,UpdatePostView,ShowProfilePageView
 from . import views
 from django.contrib.auth import views as auth_views
@@ -24,6 +26,11 @@ urlpatterns = [
     path('search',views.search,name='search'),
     path('follow',views.follow,name='follow'),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
+admin.site.site_header = 'Truffle'
+admin.site.site_title = 'Truffle'
+admin.site.site_index_title = 'Welcome To Truffle'
+
 
 
 
