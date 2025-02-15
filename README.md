@@ -35,7 +35,7 @@ Database: `Sqlite3`
 
 ### Installation
 
-1. - Fork the [repo](https://github.com/pkini2002/Social-media-web-app)
+1. - Fork the [repo](https://github.com/Olabanji-Ebun/codealpha_tasks_Social_Media_Platform.git)
    - Clone the repo to your local system
    ```git
    git clone https://github.com/pkini2002/Social-media-web-app.git
