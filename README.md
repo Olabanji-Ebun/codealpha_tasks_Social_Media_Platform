@@ -38,8 +38,8 @@ Database: `Sqlite3`
 1. - Fork the [repo](https://github.com/Olabanji-Ebun/codealpha_tasks_Social_Media_Platform.git)
    - Clone the repo to your local system
    ```git
-   git clone https://github.com/pkini2002/Social-media-web-app.git
-   cd Social-media-web-app
+   git clone https://github.com/Olabanji-Ebun/codealpha_tasks_Social_Media_Platform.git
+   cd codealpha_tasks_Social_Media_Platform
    ```
    Make sure you have python installed on your system.
 2. Create a Virtual Environment for the Project
